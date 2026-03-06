@@ -55,7 +55,6 @@
          
 #         elif i==0 or i==1:
 #             pass
-            
 #         else:
 #             flag=0
 #             for j in range(2,i):
