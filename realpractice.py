@@ -256,4 +256,16 @@
 # octal = int(a,8)
 # print(octal)
 
-a = [16,17,5,6,2]
+a = list(map(int,input("Enter list here").split()))
+max_right=a[-1]
+simple =[]
+simple.append(max_right)
+for i in range(len(a)-2,-1,-1):
+    if a[i]>max_right:
+        max_right=a[i]
+        simple.append(a[i])
+simple.reverse()
+print(simple)
+
+
+
