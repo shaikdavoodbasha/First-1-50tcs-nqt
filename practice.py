@@ -192,13 +192,13 @@
 
 #16.Sum of digits
 
-x=int(input())
-if x<0:
-    print("This is negative number")
-else:
-    s=0
-    while x>0:
-        d = x%10
-        s=s+d
-        x=x//10
-    print(s)
+# x=int(input())
+# if x<0:
+#     print("This is negative number")
+# else:
+#     s=0
+#     while x>0:
+#         d = x%10
+#         s=s+d
+#         x=x//10
+#     print(s)
